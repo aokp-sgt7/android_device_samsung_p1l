@@ -16,7 +16,7 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 $(call inherit-product, device/samsung/p1/full_p1l.mk)
 
 # --------------------------------------------------------------------------------
-# override product name - the rest is already defined in full_p1.mk
+# override product name - the rest is already defined in full_p1l.mk
 # --------------------------------------------------------------------------------
 
 PRODUCT_NAME := cm_p1l
