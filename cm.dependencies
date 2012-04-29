@@ -1,0 +1,6 @@
+[
+    {
+        "repository": "android_device_samsung_p1",
+        "target_path": "device/samsung/p1"
+    }
+]
