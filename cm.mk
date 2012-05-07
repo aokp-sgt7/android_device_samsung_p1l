@@ -20,8 +20,8 @@ $(call inherit-product, device/samsung/p1/p1.mk)
 # --------------------------------------------------------------------------------
 
 # ISDB-T support
-TARGET_INITRC_IMPORT += tv.rc
-PRODUCT_COPY_FILES += device/samsung/p1/tv.rc:root/tv.rc
+#TARGET_INITRC_IMPORT += tv.rc
+#PRODUCT_COPY_FILES += device/samsung/p1l/tv.rc:root/tv.rc
 
 PRODUCT_NAME := cm_p1l
 PRODUCT_DEVICE := p1l
