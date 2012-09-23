@@ -6,8 +6,8 @@
 # Inherit CM stuff
 # --------------------------------------------------------------------------------
 
-$(call inherit-product, vendor/cm/config/gsm.mk)
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/aokp/config/gsm.mk)
+$(call inherit-product, vendor/aokp/config/common_full_phone.mk)
 
 # --------------------------------------------------------------------------------
 # Inherit device configuration
@@ -23,7 +23,7 @@ $(call inherit-product, device/samsung/p1/p1.mk)
 #TARGET_INITRC_IMPORT += tv.rc
 #PRODUCT_COPY_FILES += device/samsung/p1l/tv.rc:root/tv.rc
 
-PRODUCT_NAME := cm_p1l
+PRODUCT_NAME := aokp_p1l
 PRODUCT_DEVICE := p1l
 PRODUCT_MODEL := GT-P1000L
 
